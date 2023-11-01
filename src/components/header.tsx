@@ -110,6 +110,7 @@ export const Header = () => (
         as="nav"
       >
         <MenuLink href="#about">About 🍕</MenuLink>
+        <MenuLink href="#venue">Venue 🏰</MenuLink>
         {/* <MenuLink href="#sponsors">Sponsors 💕</MenuLink> */}
         <MenuLink href="#coc">CoC 💂</MenuLink>
         {/* <MenuButton href="https://forms.gle/CBmxdVp4tCViYj4U9">Call for Proposals 🙋🏻‍♀️</MenuButton> */}
