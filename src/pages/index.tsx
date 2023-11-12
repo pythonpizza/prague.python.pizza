@@ -7,6 +7,7 @@ import { genericInformation } from "~/data/generic";
 import { About } from "~/sections/about";
 import { Coc } from "~/sections/coc";
 import { Hero } from "~/sections/hero";
+import { Venue } from "~/sections/venue";
 
 const Home = () => (
   <Box>
@@ -33,10 +34,10 @@ const Home = () => (
         content="Join the fun 🥳🎉 on 24th February 2024"
       />
     </Head>
-
     <Header />
     <Hero />
     <About />
+    <Venue />
     <Coc />
     <Footer />
   </Box>

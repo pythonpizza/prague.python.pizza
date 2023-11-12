@@ -151,7 +151,7 @@ export const Coc = () => (
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href="mailto: hhpythonpizza@gmail.com?subject=[Code of Conduct]"
+        href="mailto: praguepythonpizza@gmail.com?subject=[Code of Conduct]"
       >
         email
       </a>
