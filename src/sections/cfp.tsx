@@ -13,14 +13,14 @@ export const CFP = () => (
             </a>{" "}
             with us your ideas! Each talk will be 10-minute long. They can be given in person only. We will have a live stream of the event.
             The applications are reviewed on a rolling basis. Apply now to secure a spot and join the party 🎊.
-
-            <br></br>
-
+        </Paragraph>
+        <br></br>
+        <Paragraph>
             We are looking for first-time speakers! It is a good opportunity to get started with public speaking
             with these mini 10-min talks! 🎤
-
-            <br></br>
-
+        </Paragraph>
+        <br></br>
+        <Paragraph>
             We are looking for experienced speakers! It is a great opportunity to inspire a new generation of 🐍 loving people!
         </Paragraph>
     </Container>
