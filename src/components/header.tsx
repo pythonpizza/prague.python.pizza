@@ -113,7 +113,7 @@ export const Header = () => (
         <MenuLink href="#venue">Venue 🏰</MenuLink>
         {/* <MenuLink href="#sponsors">Sponsors 💕</MenuLink> */}
         <MenuLink href="#coc">CoC 💂</MenuLink>
-        {/* <MenuButton href="https://forms.gle/CBmxdVp4tCViYj4U9">Call for Proposals 🙋🏻‍♀️</MenuButton> */}
+        <MenuButton href="https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/viewform?usp=sf_link">Call for Proposals 🙋🏻‍♀️</MenuButton>
         {/* <MenuButton href="https://ti.to/pysv/hamburg-python-pizza">Tickets 🎫</MenuButton> */}
       </Flex>
     </Container>
