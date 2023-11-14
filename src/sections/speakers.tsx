@@ -19,4 +19,4 @@ const SpeakersSection = () => {
   );
 };
 
-export default Speaker;
+export default SpeakersSection;
