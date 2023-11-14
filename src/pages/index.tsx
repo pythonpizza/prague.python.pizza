@@ -5,11 +5,15 @@ import { Footer } from "~/components/footer";
 import { Header } from "~/components/header";
 import { genericInformation } from "~/data/generic";
 import { About } from "~/sections/about";
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 import { CFP } from "~/sections/cfp";
 import { SpeakerSection } from "~sections/speakers";
 >>>>>>> Stashed changes
+=======
+import { CFP } from "~/sections/cfp";
+>>>>>>> main
 import { Coc } from "~/sections/coc";
 import { Hero } from "~/sections/hero";
 import { Venue } from "~/sections/venue";
@@ -42,11 +46,15 @@ const Home = () => (
     <Header />
     <Hero />
     <About />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     <CFP />
     <Speaker />
 >>>>>>> Stashed changes
+=======
+    <CFP />
+>>>>>>> main
     <Venue />
     <Coc />
     <Footer />
