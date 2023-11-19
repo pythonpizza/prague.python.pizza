@@ -9,6 +9,7 @@ import { CFP } from "~/sections/cfp";
 import { SpeakersSection } from "~/sections/speakers";
 import { Coc } from "~/sections/coc";
 import { Hero } from "~/sections/hero";
+import { Sponsors } from "~/sections/sponsors";
 import { Venue } from "~/sections/venue";
 
 const Home = () => (
@@ -42,6 +43,7 @@ const Home = () => (
     <CFP />
     <SpeakersSection />
     <Venue />
+    <Sponsors />
     <Coc />
     <Footer />
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>

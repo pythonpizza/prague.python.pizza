@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { Container, Grid, Heading, jsx } from "theme-ui";
+import { Container, Grid, Heading, jsx, Paragraph } from "theme-ui";
 
 import { Image } from "~/components/image";
 import { Sponsor, SPONSORS } from "~/data/sponsors";
@@ -29,10 +29,19 @@ export const SponsorItem: React.FC<SponsorProps> = ({ sponsor }) => (
 export const Sponsors = () => (
   <Container id="sponsors">
     <Heading mb="primary">Sponsors</Heading>
-    <Grid columns={[1, 2, 2, 3]} gap="primary">
+    <Paragraph>If you would like to sponsor us, please reach out to the Team via{" "}
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="mailto: praguepythonpizza@gmail.com?subject=[Sponsorship]"
+      >
+        email.
+      </a>
+    </Paragraph>
+    {/* <Grid columns={[1, 2, 2, 3]} gap="primary">
       {SPONSORS.map((sponsor, index) => (
         <SponsorItem key={index} sponsor={sponsor} />
       ))}
-    </Grid>
+    </Grid> */}
   </Container>
 );
