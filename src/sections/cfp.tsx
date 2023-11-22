@@ -2,7 +2,7 @@ import { Container, Heading, Paragraph } from "theme-ui";
 
 export const CFP = () => (
     <Container id="cfp" variant="smallContainer">
-        <Heading>Call For Proposals by 31st December</Heading>
+        <Heading>Call For Proposals by 20th December</Heading>
         <Paragraph>
             <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/viewform?usp=sf_link"
