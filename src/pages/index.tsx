@@ -6,6 +6,7 @@ import { Header } from "~/components/header";
 import { genericInformation } from "~/data/generic";
 import { About } from "~/sections/about";
 import { CFP } from "~/sections/cfp";
+import { Announcements } from "~/sections/announcements";
 import { SpeakersSection } from "~/sections/speakers";
 import { Coc } from "~/sections/coc";
 import { Hero } from "~/sections/hero";
@@ -41,6 +42,7 @@ const Home = () => (
     <Hero />
     <About />
     <CFP />
+    <Announcements />
     <SpeakersSection />
     <Venue />
     <Sponsors />
