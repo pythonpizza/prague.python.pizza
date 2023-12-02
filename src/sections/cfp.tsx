@@ -1,4 +1,5 @@
-import { Container, Heading, Paragraph } from "theme-ui";
+import { Box, Container, Heading, Paragraph } from "theme-ui";
+import { ContentButton } from "~/components/header";
 
 export const CFP = () => (
     <Container id="cfp" variant="smallContainer">
@@ -23,5 +24,9 @@ export const CFP = () => (
         <Paragraph>
             We are looking for experienced speakers! It is a great opportunity to inspire a new generation of 🐍 loving people!
         </Paragraph>
+
+        <Box sx={{ "m": "5rem" }}>
+        <ContentButton href="https://forms.gle/LC3khsroakA8bi8GA">Click here to send your Proposal</ContentButton> 
+        </Box>
     </Container>
 );
