@@ -14,6 +14,10 @@ export const CFP = () => (
             </a>{" "}
             with us your ideas! Each talk will be 10-minute long. They can be given in person only. We will have a live stream of the event.
             The applications are reviewed on a rolling basis. Apply now to secure a spot and join the party 🎊.
+
+        </Paragraph>
+        <Paragraph>
+            If you're not sure which topic you would like to talk about – you can send multiple proposals :)
         </Paragraph>
         <br></br>
         <Paragraph>
