@@ -77,6 +77,39 @@ const MenuButton: React.FC<{ href: string }> = ({ children, href }) => (
   </Box>
 );
 
+export const ContentButton: React.FC<{ href: string }> = ({ children, href }) => (
+  <Box
+    sx={{
+      perspective: "24rem",
+      p: ".4rem",
+    }}
+    mt={["secondary", 0]}
+    ml={[0, "secondary"]}
+  >
+    <NavLink
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      sx={{
+        padding: "1rem 2.4rem",
+        border: "1px solid white",
+        borderRadius: "10rem",
+        background: "primary",
+        color: "white",
+        transition: `transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+          box-shadow 0.3s cubic-bezier(0.165, 0.84, 0.44, 1)`,
+        "&:hover": {
+          transform: "translateZ(2.6rem) rotateX(-12deg) rotateY(-10deg)",
+          boxShadow: "0.6rem 0.4rem 2.4rem -0.8rem rgba(25, 0, 0, 0.5)",
+          color: "white",
+        },
+      }}
+    >
+      {children}
+    </NavLink>
+  </Box>
+);
+
 export const Header = () => (
   <Box
     sx={{
