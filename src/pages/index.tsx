@@ -41,10 +41,10 @@ const Home = () => (
     <Header />
     <Hero />
     <About />
-    <CFP />
     <Announcements />
     <SpeakersSection />
     <Venue />
+    <CFP />
     <Sponsors />
     <Coc />
     <Footer />
