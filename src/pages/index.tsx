@@ -11,6 +11,7 @@ import { SpeakersSection } from "~/sections/speakers";
 import { Coc } from "~/sections/coc";
 import { Hero } from "~/sections/hero";
 import { Sponsors } from "~/sections/sponsors";
+import { OrganizerSection } from "~/sections/organizers";
 import { Venue } from "~/sections/venue";
 
 const Home = () => (
@@ -44,6 +45,7 @@ const Home = () => (
     <Announcements />
     <SpeakersSection />
     <Venue />
+    <OrganizerSection />
     <CFP />
     <Sponsors />
     <Coc />
