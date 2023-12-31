@@ -9,6 +9,7 @@ import { CFP } from "~/sections/cfp";
 import { Announcements } from "~/sections/announcements";
 import { SpeakersSection } from "~/sections/speakers";
 import { Coc } from "~/sections/coc";
+import { Schedule } from "~/sections/schedule";
 import { Hero } from "~/sections/hero";
 import { Sponsors } from "~/sections/sponsors";
 import { Venue } from "~/sections/venue";
@@ -41,6 +42,7 @@ const Home = () => (
     <Header />
     <Hero />
     <About />
+    <Schedule />
     <Announcements />
     <SpeakersSection />
     <Venue />
