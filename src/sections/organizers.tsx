@@ -3,17 +3,18 @@ import Organizer from './organizer';
 import { Container, Heading } from "theme-ui";
 
 const orgData = [
-    { name: "Kateřina Lesch", affiliation: "Senior Manager in Data Analytics and Artificial Intelligence at Deloitte", image: "/speakers/katerina1.jpg", index: 1 },
-    { name: "Kateřina Lesch", affiliation: "Senior Manager in Data Analytics and Artificial Intelligence at Deloitte", image: "/speakers/katerina1.jpg", index: 2 },
-    { name: "Kateřina Lesch", affiliation: "Senior Manager in Data Analytics and Artificial Intelligence at Deloitte", image: "/speakers/katerina1.jpg", index: 3 },
-    { name: "Kateřina Lesch", affiliation: "Senior Manager in Data Analytics and Artificial Intelligence at Deloitte", image: "/speakers/katerina1.jpg", index: 4 },
-    { name: "Kateřina Lesch", affiliation: "Senior Manager in Data Analytics and Artificial Intelligence at Deloitte", image: "/speakers/katerina1.jpg", index: 5 },
+    { name: "Mia Bajić", image: "/speakers/mia1.jpg", index: 1 },
+    { name: "Artur Czepiel", image: "/speakers/redpythonpizza.png", index: 2 },
+    { name: "Sena Şahin", image: "/speakers/pythonpizzalogo.png", index: 3 },
+    { name: "Piotr Gnus", image: "/speakers/pythonpizzalogo.png", index: 4 },
+    { name: "Moisés Guimarães de Medeiros", image: "/speakers/pythonpizzalogo.png", index: 5 },
 ];
 
 export const OrganizerSection = () => {
     return (
         <Container id="venue" variant="smallContainer">
             <Heading>Organizers</Heading>
+            <p>Python Pizza is an event organized by the community for the community. Everyone involved is a volunteer giving their time for free. </p>
             <div style={{
                 display: 'flex',
                 flexWrap: 'wrap',

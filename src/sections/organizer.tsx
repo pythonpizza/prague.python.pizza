@@ -13,7 +13,6 @@ const Organizer = ({ name, image }) => {
                 style={{
                     width: '100%',
                     height: 'auto',
-                    objectFit: 'contain',
                     borderRadius: '50%'
                 }}
             />
