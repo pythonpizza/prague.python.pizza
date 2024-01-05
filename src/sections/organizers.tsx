@@ -3,11 +3,11 @@ import Organizer from './organizer';
 import { Container, Heading } from "theme-ui";
 
 const orgData = [
-    { name: "Mia Bajić", image: "/speakers/mia1.jpg", index: 1 },
+    { name: "Mia Bajić", image: "/speakers/mia.jpg", index: 1 },
     { name: "Artur Czepiel", image: "/speakers/redpythonpizza.png", index: 2 },
-    { name: "Sena Şahin", image: "/speakers/pythonpizzalogo.png", index: 3 },
-    { name: "Piotr Gnus", image: "/speakers/pythonpizzalogo.png", index: 4 },
-    { name: "Moisés Guimarães de Medeiros", image: "/speakers/pythonpizzalogo.png", index: 5 },
+    { name: "Sena Şahin", image: "/speakers/redpythonpizza.png", index: 3 },
+    { name: "Piotr Gnus", image: "/speakers/piotr.jpg", index: 4 },
+    { name: "Moisés Guimarães de Medeiros", image: "/speakers/redpythonpizza.png", index: 5 },
 ];
 
 export const OrganizerSection = () => {

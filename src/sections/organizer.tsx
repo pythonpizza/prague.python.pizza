@@ -12,8 +12,9 @@ const Organizer = ({ name, image }) => {
                 alt={name}
                 style={{
                     width: '100%',
-                    height: 'auto',
-                    borderRadius: '50%'
+                    height: '70%',
+                    borderRadius: '50%',
+                    objectFit: "cover",
                 }}
             />
             <h3>{name}</h3>
