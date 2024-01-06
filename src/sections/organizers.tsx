@@ -1,13 +1,13 @@
 import React from 'react';
 import Organizer from './organizer';
-import { Container, Heading } from "theme-ui";
+import { Container, Heading, Grid } from "theme-ui";
 
 const orgData = [
     { name: "Mia Bajić", image: "/speakers/mia.jpg", index: 1 },
-    { name: "Artur Czepiel", image: "/speakers/redpythonpizza.png", index: 2 },
-    { name: "Sena Şahin", image: "/speakers/redpythonpizza.png", index: 3 },
+    { name: "Artur Czepiel", image: "/speakers/pizza-square.png", index: 2 },
+    { name: "Sena Şahin", image: "/speakers/pizza-square.png", index: 3 },
     { name: "Piotr Gnus", image: "/speakers/piotr.jpg", index: 4 },
-    { name: "Moisés Guimarães de Medeiros", image: "/speakers/redpythonpizza.png", index: 5 },
+    { name: "Moisés Guimarães de Medeiros", image: "/speakers/pizza-square.png", index: 5 },
 ];
 
 export const OrganizerSection = () => {
@@ -20,13 +20,15 @@ export const OrganizerSection = () => {
                 flexWrap: 'wrap',
                 justifyContent: 'center'
             }}>
-                {orgData.map((org) => (
-                    <Organizer
-                        key={org.index}
-                        name={org.name}
-                        image={org.image}
-                    />
-                ))}
+                <Grid columns={[2,2,2,3]} gap="primary">
+                    {orgData.map((org) => (
+                        <Organizer
+                            key={org.index}
+                            name={org.name}
+                            image={org.image}
+                        />
+                    ))}
+                </Grid>
             </div>
         </Container >
 
