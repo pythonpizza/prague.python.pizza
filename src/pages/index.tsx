@@ -5,8 +5,7 @@ import { Footer } from "~/components/footer";
 import { Header } from "~/components/header";
 import { genericInformation } from "~/data/generic";
 import { About } from "~/sections/about";
-import { CFP } from "~/sections/cfp";
-import { Announcements } from "~/sections/announcements";
+
 import { SpeakersSection } from "~/sections/speakers";
 import { Coc } from "~/sections/coc";
 import { Schedule } from "~/sections/schedule";
@@ -43,13 +42,11 @@ const Home = () => (
     <Header />
     <Hero />
     <About />
-    <Schedule />
-    <Announcements />
     <SpeakersSection />
-    <Venue />
+    <Schedule />
     <OrganizerSection />
-    <CFP />
     <Sponsors />
+    <Venue />
     <Coc />
     <Footer />
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>

@@ -12,7 +12,7 @@ const orgData = [
 
 export const OrganizerSection = () => {
     return (
-        <Container id="venue" variant="smallContainer">
+        <Container id="organizers" variant="smallContainer">
             <Heading>Organizers</Heading>
             <p>Python Pizza is an event organized by the community for the community. Everyone involved is a volunteer giving their time for free. </p>
             <div style={{
