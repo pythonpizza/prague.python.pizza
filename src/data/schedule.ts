@@ -70,9 +70,9 @@ export type Event = {
       when: "2024/02/24 12:12 PM UTC+1"
     },
     {
-      name: "TBD",
-      title: "",
-      photo: "/speakers/pizza-square.png",
+      name: "Barbora Drbohlavová",
+      title: "Do's and Don't's of event organizing",
+      photo: "/speakers/bara.jpg",
       link: "",
       when: "2024/02/24 12:12 PM UTC+1"
     },
