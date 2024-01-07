@@ -1,6 +1,6 @@
 import React from 'react';
 import Organizer from './organizer';
-import { Container, Heading, Grid } from "theme-ui";
+import { Container, Heading, Grid, Paragraph } from "theme-ui";
 
 const orgData = [
     { name: "Mia Bajić", image: "/speakers/mia.jpg", index: 1 },
@@ -14,7 +14,11 @@ export const OrganizerSection = () => {
     return (
         <Container id="organizers" variant="smallContainer">
             <Heading>Organizers</Heading>
-            <p>Python Pizza is an event organized by the community for the community. Everyone involved is a volunteer giving their time for free. </p>
+            <Paragraph>Python Pizza is brought to life by volunteers. Everyone from our organizing team to our amazing speakers are donating their time to make this event happen.</Paragraph>
+            <br />
+            <Paragraph>By the community for the community. </Paragraph> 
+            <br />
+
             <div style={{
                 display: 'flex',
                 flexWrap: 'wrap',
