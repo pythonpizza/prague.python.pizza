@@ -5,12 +5,13 @@ import { Footer } from "~/components/footer";
 import { Header } from "~/components/header";
 import { genericInformation } from "~/data/generic";
 import { About } from "~/sections/about";
-import { CFP } from "~/sections/cfp";
-import { Announcements } from "~/sections/announcements";
+
 import { SpeakersSection } from "~/sections/speakers";
 import { Coc } from "~/sections/coc";
+import { Schedule } from "~/sections/schedule";
 import { Hero } from "~/sections/hero";
 import { Sponsors } from "~/sections/sponsors";
+import { OrganizerSection } from "~/sections/organizers";
 import { Venue } from "~/sections/venue";
 
 const Home = () => (
@@ -41,11 +42,11 @@ const Home = () => (
     <Header />
     <Hero />
     <About />
-    <Announcements />
     <SpeakersSection />
-    <Venue />
-    <CFP />
+    <Schedule />
+    <OrganizerSection />
     <Sponsors />
+    <Venue />
     <Coc />
     <Footer />
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>

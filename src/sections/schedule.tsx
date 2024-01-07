@@ -6,8 +6,6 @@ import { SCHEDULE } from "~/data/schedule";
 export const Schedule = () => (
   <Container id="schedule" variant="smallContainer">
     <Heading>Schedule</Heading>
-    <Paragraph>The schedule is displayed in your timezone</Paragraph>
-    <Paragraph>THIS IS NOT THE FINAL SCHEDULE!</Paragraph>
 
     {SCHEDULE.map((schedule, index) => (
       <ScheduleCard
