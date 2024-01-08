@@ -7,7 +7,7 @@ const orgData = [
     { name: "Artur Czepiel", image: "/speakers/pizza-square.png", index: 2 },
     { name: "Sena Şahin", image: "/speakers/pizza-square.png", index: 3 },
     { name: "Piotr Gnus", image: "/speakers/piotr.jpg", index: 4 },
-    { name: "Moisés Guimarães de Medeiros", image: "/speakers/pizza-square.png", index: 5 },
+    { name: "Moisés Guimarães de Medeiros", image: "/speakers/moises.jpg", index: 5 },
 ];
 
 export const OrganizerSection = () => {
