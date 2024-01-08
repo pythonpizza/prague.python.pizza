@@ -28,11 +28,11 @@ export type Event = {
       when: "2024/02/24 10:48 AM UTC+1"
     },
     {
-      name: "Honza Kral",
-      title: ".",
-      photo: "/speakers/honzak.jpg",
-      link: "https://www.linkedin.com/in/honzakral/",
-      when: "2024/02/24 11:12 AM UTC+1"
+      name: "Jürgen Gmach",
+      title: "Your perfect Python development experience on Ubuntu",
+      photo: "/speakers/jurgen.jpg",
+      link: "https://jugmac00.github.io/",
+      when: "2024/02/24 11:12 PM UTC+1"
     },
     {
       name: "Kayla Eilhart",
@@ -116,11 +116,11 @@ export type Event = {
       when: "2024/02/24 2:48 PM UTC+1"
     },
     {
-      name: "Jürgen Gmach",
-      title: "Your perfect Python development experience on Ubuntu",
-      photo: "/speakers/jurgen.jpg",
-      link: "https://jugmac00.github.io/",
-      when: "2024/02/24 3:00 PM UTC+1"
+      name: "Honza Kral",
+      title: ".",
+      photo: "/speakers/honzak.jpg",
+      link: "https://www.linkedin.com/in/honzakral/",
+      when: "2024/02/24 3:00 AM UTC+1"
     },
     {
       name: "Matěj Volf",
@@ -141,9 +141,9 @@ export type Event = {
       when: "2024/02/24 3:36 PM UTC+1"
     },
     {
-      name: "TBA",
-      title: "",
-      photo: "/speakers/pizza-square.png",
+      name: "Karol Lasocki",
+      title: "PyCharm Tips and Tricks",
+      photo: "/speakers/karol.jpeg",
       link: "",
       when: "2024/02/24 4:12 PM UTC+1"
     },
