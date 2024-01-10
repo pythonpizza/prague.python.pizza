@@ -32,7 +32,7 @@ export type Event = {
       title: "Your perfect Python development experience on Ubuntu",
       photo: "/speakers/jurgen.jpg",
       link: "https://jugmac00.github.io/",
-      when: "2024/02/24 11:12 PM UTC+1"
+      when: "2024/02/24 11:12 AM UTC+1"
     },
     {
       name: "Kayla Eilhart",
@@ -92,7 +92,7 @@ export type Event = {
       title: "Freelancing: How to start work as a freelancer?",
       photo: "/speakers/martin.jpg",
       link: "https://martinkolar.eu/en/",
-      when: "2024/02/24 2:24 PM UTC+1"
+      when: "2024/02/24 2:12 PM UTC+1"
     },
     {
       name: "Tetiana Kukhelna",
@@ -120,7 +120,7 @@ export type Event = {
       title: ".",
       photo: "/speakers/honzak.jpg",
       link: "https://www.linkedin.com/in/honzakral/",
-      when: "2024/02/24 3:00 AM UTC+1"
+      when: "2024/02/24 3:00 PM UTC+1"
     },
     {
       name: "Matěj Volf",
