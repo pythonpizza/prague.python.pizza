@@ -6,7 +6,7 @@ export type Event = {
     link?: string;
     when?: string;
   };
-  
+
   export const SCHEDULE: Event[] = [
     {
       label: "Open Doors",
@@ -179,7 +179,7 @@ export type Event = {
       name: "Klára Mikšíčková",
       title: "How to overcome overwhelm and reduce work stress",
       photo: "/speakers/klara.jpeg",
-      link: "www.kouc-miksickova.cz",
+      link: "https://www.kouc-miksickova.cz",
       when: "2024/02/24 5:12 PM UTC+1"
     },
     {
