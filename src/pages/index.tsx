@@ -38,6 +38,10 @@ const Home = () => (
         name="twitter:description"
         content="Join the fun 🥳🎉 on 24th February 2024"
       />
+      <meta
+        name="photo-attribution"
+        content="Photo by Denis Poltoradnev on Unsplash (https://unsplash.com/photos/brown-and-white-concrete-building-during-daytime-Jq1zrutUFP4)"
+      />
     </Head>
     <Header />
     <Hero />
