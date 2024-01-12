@@ -169,10 +169,10 @@ export type Event = {
       when: "2024/02/24 4:48 PM UTC+1"
     },
     {
-      name: "TBA",
-      title: "",
-      photo: "/speakers/pizza-square.png",
-      link: "",
+      name: "Matěj Račinský",
+      title: "Julia - a Python rival?",
+      photo: "/speakers/matejr.png",
+      link: "https://www.linkedin.com/in/matej-racinsky/",
       when: "2024/02/24 5:00 PM UTC+1"
     },
     {
