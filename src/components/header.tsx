@@ -144,9 +144,9 @@ export const Header = () => (
       >
         <MenuLink href="#about">About 🍕</MenuLink>
         <MenuLink href="#schedule">Schedule 📅</MenuLink>
-        <MenuLink href="#organizers">Organizers 👩🏻👨🏻🧑🏻</MenuLink>
+        <MenuLink href="#organizers">Organizers 👩🏻</MenuLink>
         <MenuLink href="#venue">Venue 🏰</MenuLink>
-        {/* <MenuLink href="#sponsors">Sponsors 💕</MenuLink> */}
+        <MenuLink href="#sponsors">Sponsors 💛</MenuLink>
         <MenuLink href="#coc">CoC 💂</MenuLink>
         <MenuButton href="https://pretix.eu/pyconcz/prague.pizza/">Tickets 🎫</MenuButton>
       </Flex>
