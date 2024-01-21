@@ -13,7 +13,7 @@ export const SCHEDULE: Event[] = [
     when: "2024/02/24 9:30 AM UTC+1"
   },
   {
-    label: "Welcome",
+    label: "Welcome 🙌",
     when: "2024/02/24 10:00 AM UTC+1"
   },
   {
@@ -45,7 +45,7 @@ export const SCHEDULE: Event[] = [
     when: "2024/02/24 11:12 AM UTC+1"
   },
   {
-    label: "Quick break (24 minutes)",
+    label: "Quick break (24 minutes) ☕",
     when: "2024/02/24 11:24 AM UTC+1"
   },
   {
@@ -74,10 +74,10 @@ export const SCHEDULE: Event[] = [
     title: "Do's and Don't's of event organizing",
     photo: "/speakers/bara.jpg",
     link: "https://www.linkedin.com/in/baradrb/",
-    when: "2024/02/24 12:12 PM UTC+1"
+    when: "2024/02/24 12:24 PM UTC+1"
   },
   {
-    label: "Pizza Time! (1 hour)",
+    label: "🍕🍕🍕 Pizza Time! (1 hour) 🍕🍕🍕",
     when: "2024/02/24 12:36 PM UTC+1"
   },
   {
@@ -137,7 +137,7 @@ export const SCHEDULE: Event[] = [
     when: "2024/02/24 3:24 PM UTC+1"
   },
   {
-    label: "Quick break (24 minutes)",
+    label: "Quick break (36 minutes) ☕",
     when: "2024/02/24 3:36 PM UTC+1"
   },
   {
@@ -190,7 +190,11 @@ export const SCHEDULE: Event[] = [
     when: "2024/02/24 5:24 PM UTC+1"
   },
   {
-    label: "Closing 👋 and Lightning Talks ⚡",
+    label: "Closing session 👋",
     when: "2024/02/24 5:36 PM UTC+1"
+  },
+  {
+    label: "Happy Hour & Networking 🍻",
+    when: "2024/02/24 6:00 PM UTC+1"
   },
 ];
