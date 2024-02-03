@@ -164,7 +164,7 @@ export const SCHEDULE: Event[] = [
   {
     name: "Bilge Yücel",
     title: "What is multimodality, and can it generate captions for my Instagram photos?",
-    photo: "/speakers/pizza-square.png",
+    photo: "/speakers/bilge.jpg",
     link: "https://bilgeyucel.github.io/",
     when: "2024/02/24 4:48 PM UTC+1"
   },
