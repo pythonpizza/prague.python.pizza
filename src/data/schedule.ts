@@ -183,9 +183,9 @@ export const SCHEDULE: Event[] = [
     when: "2024/02/24 5:12 PM UTC+1"
   },
   {
-    name: "TBA",
-    title: "",
-    photo: "/speakers/pizza-square.png",
+    name: "Adam & Michał",
+    title: "The first Python game for beginners",
+    photo: "/speakers/michal.jpeg",
     link: "",
     when: "2024/02/24 5:24 PM UTC+1"
   },
