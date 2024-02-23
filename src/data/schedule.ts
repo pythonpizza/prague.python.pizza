@@ -63,10 +63,10 @@ export const SCHEDULE: Event[] = [
     when: "2024/02/24 12:00 PM UTC+1"
   },
   {
-    name: "Mikuláš Muroň",
-    title: "Python in Orbit: Unleashing the Power of Satellite Data",
-    photo: "/speakers/mikulas.jpg",
-    link: "",
+    name: "Cristián Maureira-Fredes",
+    title: "Python's Secret Friends",
+    photo: "/speakers/cristian.JPG",
+    link: "https://maureira.xyz/",
     when: "2024/02/24 12:12 PM UTC+1"
   },
   {
@@ -130,15 +130,8 @@ export const SCHEDULE: Event[] = [
     when: "2024/02/24 3:12 PM UTC+1"
   },
   {
-    name: "Soraya Roberta dos Santos Medeiros",
-    title: "CompiledPoem.py: Diversity, Education, and the Python Community in Brazil",
-    photo: "/speakers/soraya.png",
-    link: "https://sorayaroberta.com/",
+    label: "Quick break (48 minutes) ☕",
     when: "2024/02/24 3:24 PM UTC+1"
-  },
-  {
-    label: "Quick break (36 minutes) ☕",
-    when: "2024/02/24 3:36 PM UTC+1"
   },
   {
     name: "Karol Lasocki",
@@ -155,43 +148,36 @@ export const SCHEDULE: Event[] = [
     when: "2024/02/24 4:24 PM UTC+1"
   },
   {
-    name: "Flavio Percoco",
-    title: "itertools and how they can help you",
-    photo: "/speakers/pizza-square.png",
-    link: "",
-    when: "2024/02/24 4:36 PM UTC+1"
-  },
-  {
     name: "Bilge Yücel",
     title: "What is multimodality, and can it generate captions for my Instagram photos?",
     photo: "/speakers/bilge.jpg",
     link: "https://bilgeyucel.github.io/",
-    when: "2024/02/24 4:48 PM UTC+1"
+    when: "2024/02/24 4:36 PM UTC+1"
   },
   {
     name: "Matěj Račinský",
     title: "Julia - a Python rival?",
     photo: "/speakers/matejr.png",
     link: "https://www.linkedin.com/in/matej-racinsky/",
-    when: "2024/02/24 5:00 PM UTC+1"
+    when: "2024/02/24 4:48 PM UTC+1"
   },
   {
     name: "Klára Mikšíčková",
     title: "How to overcome overwhelm and reduce work stress",
     photo: "/speakers/klara.jpeg",
     link: "https://www.kouc-miksickova.cz",
-    when: "2024/02/24 5:12 PM UTC+1"
+    when: "2024/02/24 5:00 PM UTC+1"
   },
   {
     name: "Adam & Michał",
     title: "The first Python game for beginners",
     photo: "/speakers/michal.jpeg",
     link: "",
-    when: "2024/02/24 5:24 PM UTC+1"
+    when: "2024/02/24 5:12 PM UTC+1"
   },
   {
-    label: "Closing session 👋",
-    when: "2024/02/24 5:36 PM UTC+1"
+    label: "Lightning Talks & Closing Session 👋",
+    when: "2024/02/24 5:24 PM UTC+1"
   },
   {
     label: "Happy Hour & Networking 🍻",
