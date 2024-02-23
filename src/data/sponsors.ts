@@ -20,4 +20,9 @@ export const SPONSORS = [
         image: "/sponsors/apify.svg",
         link: "https://apify.com/",
     },
+    {
+        name: "Python Software Foundation",
+        image: "/sponsors/psf.png",
+        link: "https://www.python.org/psf-landing/",
+    },
 ]
