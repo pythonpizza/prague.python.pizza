@@ -32,7 +32,7 @@ const Home = () => (
       />
       <meta
         name="twitter:image"
-        content="https://python.python.pizza/social-image.jpg"
+        content="https://prague.python.pizza/social-image.jpg"
       />
       <meta
         name="twitter:description"
